@@ -1,0 +1,37 @@
+{
+  "name": "miso-home-controller",
+  "version": "0.0.1",
+  "description": "Combine Google Home, IFTTT, Firebase, Raspberry Pi, Node.js, eRemote mini and operate home appliances.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "ps4-waker": "ps4-waker"
+  },
+  "keywords": [
+    "Google Home",
+    "IFTTT",
+    "Firebase",
+    "Raspberry Pi",
+    "eRemote mini",
+    "Miso"
+  ],
+  "author": "Miso Tanaka <miso.develop@gmail.com> (https://qiita.com/miso_develop)",
+  "license": "MIT",
+  "dependencies": {
+    "broadlinkjs-rm": "^0.2.0",
+    "dgram": "^1.0.1",
+    "firebase": "^4.6.0",
+    "ps4-waker": "^1.4.3",
+    "wol": "^1.0.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miso-develop/miso-home-controller.git"
+  },
+  "bugs": {
+    "url": "https://github.com/miso-develop/miso-home-controller/issues"
+  },
+  "homepage": "https://github.com/miso-develop/miso-home-controller#miso-home-controller",
+  "private": true
+}

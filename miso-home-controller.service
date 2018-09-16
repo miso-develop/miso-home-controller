@@ -1,0 +1,16 @@
+[Unit]
+Description=Miso Home Controller
+After=syslog.target network-online.target
+
+[Service]
+Type=simple
+User=pi
+ExecStart=/usr/bin/node index.js
+Restart=on-failure
+RestartSec=10
+KillMode=process
+WorkingDirectory=/home/pi/miso-home-controller
+
+[Install]
+WantedBy=multi-user.target
+
